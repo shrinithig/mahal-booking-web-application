@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+}
+.textbox p{
+    width:100%;
+    background-color: rgb(12, 12, 88);
+    font-size: 50px;
+    font-weight: bold;
+    color: #ddd;
+    align-items: center;
+}
+
+#gallery{
+    font-family: 'Poppins',sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    flex-direction: column;
+}
+#gallery td, #gallery th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#gallery img{
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    background-position: center;
+}
+#gallery tr:nth-child(even){background-color: #f2f2f2;}
+#gallery tr:hover{background-color: #ddd;}
+
